@@ -1,0 +1,150 @@
+#login:hover {
+  background-color: #7e71e1;
+  color: white;
+}
+#docbut:hover {
+  background-color: #7e71e1;
+  color: white;
+}
+#docbut {
+  color: azure;
+}
+.curves {
+  margin-top: 50px;
+  border-radius: 0px 0px 250px 0px;
+  background: #6351ac;
+  color: aliceblue;
+  padding: 9rem;
+  display: flex;
+  flex: -20px 0px;
+  font-family: poppins;
+  font-weight: 700;
+  background-image: url(../img/bg.png);
+  background-blend-mode: multiply;
+}
+
+.doc {
+  width: 300px;
+  margin-left: 200px;
+  margin-top: -100px;
+  z-index: 1;
+}
+mark {
+  color: #c0bff3;
+  background-color: transparent;
+  background-blend-mode: inherit;
+}
+.blob-content {
+  z-index: 1;
+  padding-left: -20px;
+}
+.blob-motion {
+  z-index: 0.5;
+  position: absolute;
+  transform: translateY(-35%);
+  margin-left: -590px;
+  opacity: 18%;
+}
+/* 3rd section css */
+#thirdsec {
+  margin-top: -20px;
+  width: 800px;
+  height: 100px;
+  margin-top: -80px;
+  flex-shrink: 0;
+  border-radius: 9px 9px 23px 0px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* clinic */
+#clinic {
+  color: #251b5a;
+  font-size: 63px;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.line {
+  width: 232px;
+  height: 7px;
+  flex-shrink: 0;
+  margin-left: 580px;
+  border-radius: 10px;
+}
+.line1 {
+  width: 32px;
+  height: 7px;
+  flex-shrink: 0;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#clinicard {
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#clinicard:hover {
+  border-radius: 10px;
+  background: #6952d5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color:white;
+}
+
+.logimg {
+  width: 127.317px;
+  height: 130.842px;
+  flex-shrink: 0;
+  border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%;
+  background-color: #4a35a28a;
+}
+
+.logimg .clinicard :hover {
+  background-color: #FFFFFF;
+}
+
+
+
+@media (min-width: 767px) {
+  .logo2 {
+    display: none;
+    /* Hide the image in mobile mode */
+  }
+}
+
+@media (max-width: 767px) {
+  .logo1 {
+    display: none;
+    /* Hide the image in mobile mode */
+  }
+
+  .logo2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #item {
+    flex: -20px 40px;
+  }
+}
+/*.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('./layer1.svg');
+}
+.layer2 {
+  background-image: url('./layer2.svg');
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+*/

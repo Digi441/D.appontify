@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>"you are logged out "</h1>
+    {% if messages %}
+    {% for message in messages%}
+    {{message}}
+    {% endfor %}
+    {% endif %}
+    <p>Don't have account -> 
+        <a href="create">Sign Up Now!</a><br/>
+    </p>
+    <p>for login
+        <a href="login">login</a>
+    </p>
+</body>
+</html>
